@@ -2,13 +2,14 @@
   import './App.css' ;
   import Navbar from './Components/Navbar/Navbar'
   import { BrowserRouter,Routes, Route } from 'react-router-dom';
-  import { Link } from 'react-router-dom';
   import Shop from './pages/Shop';
   import ShopCategory from './pages/ShopCategory';
   import Product from './pages/Product';
   import Cart from './pages/Cart';
   import LoginSignup from './pages/LoginSignup'; 
   import { Footer } from './Components/footer/Footer';
+ 
+
 
     function App() {
       const [count, setCount] = useState(0)
